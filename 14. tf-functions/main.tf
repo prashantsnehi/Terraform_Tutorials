@@ -10,7 +10,7 @@ variable "string_list" {
 }
 
 output "output" {
-  #value = upper(local.value)
+  value = upper(local.value)
   #value = startswith(local.value, "hello")
   #value = split(" ", local.value)
   #value = min(1, 2, 3, 4, 5)
